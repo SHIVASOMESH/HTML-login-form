@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+body{
+    /* background: url(01.jpg); */
+    background-image: linear-gradient(to top right , yellow ,orange,#FF6000,#ff3300d2 ,#ff00b3,#b700ff,#6f00ff,#2600ff,#006eff,#00eeff);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    z-index: 1;
+}
+body::after{
+    /* background-color: rgba(255, 255, 255, 0.493); */
+    position: absolute;
+    content: " ";
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    z-index: -1;
+}
+
+header{
+    text-align: center;
+    padding-bottom: 30px;
+    padding: 30px;
+}
+a{
+    font-size: 30px;
+    width: 100%;
+    color: red;
+}
+.box{
+    display: flex;
+    width: 60%;
+}
+.box1{
+    flex: 1;
+    padding: 10px;
+}
+.box1 label{
+    color: #212A3E;
+}
+.box .box1 button{
+    height: 45px;
+    width: 120px;
+    background-color: green;
+    border: none;
+    border-radius: 5px;
+    font-size: 15px;
+    color: white;
+}
+.box2 {
+    flex: 1;
+}
+.box2 input{
+    height: 30px;
+    width: 600px;
+    background-color: #fff;
+    border: none;
+    border-radius: 5px;
+}
+.box2 input:focus{
+    outline: none;
+    color: white;
+    margin-left: 10px;
+}
+
+.box2 textarea{
+    width: 600px;
+    height: 150px;
+    background-color:#fff;
+    border: none;
+    border-radius: 5px;
+}
+
+.box2 select{
+    display: flex;
+    text-align: left;
+}
+.box .box11{
+    flex: 1;
+    padding-left: 8px;
+}
+.box .box12{
+    flex: 3;
+    padding-bottom: 20px;
+}
+.box .box13{
+    flex: 1;
+    padding-left: 8px;
+
+}
+.box .box14{
+    flex: 3;
+    padding-bottom: 20px;
+
+}
+.box .box15{
+    flex: 1;
+    padding-left: 8px;
+
+}
+.box .box16{
+    flex: 3;
+    
+}
+.box .box16 .b1{
+
+}
